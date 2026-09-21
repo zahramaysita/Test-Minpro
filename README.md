@@ -74,6 +74,10 @@ Program juga menerapkan validasi input pada menu utama sehingga pengguna hanya d
 
 Gambar di atas menampilkan data hewan yang tersimpan di dalam sistem. Data yang ditampilkan merupakan dummy data yang telah ditambahkan sebelumnya ke dalam ArrayList sebagai data awal program. Penerapan dummy data ini dilakukan untuk memenuhi ketentuan program, yaitu agar fitur read dapat langsung menampilkan data tanpa pengguna harus melakukan input data terlebih dahulu. Informasi yang ditampilkan meliputi ID hewan, nama hewan, dan jenis hewan. Selain menampilkan dummy data, menu ini juga dapat menampilkan data baru yang berhasil ditambahkan oleh pengguna melalui menu tambah data hewan.
 
+<img width="317" height="516" alt="image" src="https://github.com/user-attachments/assets/6a3c3742-8968-4f71-85eb-4ca5e96c8e57" />
+
+Gambar di atas menampilkan data yang sudah ditambahkan dan tersimpan di dalam sistem. Pada menu tampilkan data hewan, informasi yang ditampilkan berupa ID hewan, nama hewan, jenis hewan dan ras hewan.
+
 ### 2.2.2 Tambah Data Hewan
 
 <img width="262" height="81" alt="image" src="https://github.com/user-attachments/assets/35e58391-805e-4d77-a2aa-9b3e66356fe7" />
@@ -102,7 +106,37 @@ Pada saat memilih jenis hewan, pengguna hanya dapat memasukkan angka sesuai pili
 Gambar di atas menampilkan proses penambahan data hewan ke dalam sistem. Pengguna memasukkan ID hewan, nama hewan, dan memilih jenis hewan yang tersedia. Karena data yang dimasukkan valid, sistem berhasil menyimpan data hewan dan menampilkan pesan bahwa data berhasil ditambahkan.
 ### 2.2.3 Update Data Hewan
 
+
+Gambar di atas menampilkan proses pembaruan data hewan yang tersimpan di dalam sistem. Pada menu ini, pengguna diminta memasukkan ID hewan yang ingin diubah. Jika ID hewan ditemukan, pengguna dapat memasukkan nama hewan yang baru dan sistem akan memperbarui data tersebut. Setelah proses berhasil dilakukan, sistem akan menampilkan pesan bahwa data hewan berhasil diperbarui.
+
+<img width="220" height="70" alt="image" src="https://github.com/user-attachments/assets/75b363c8-994b-41ee-bcf0-223f275547bb" />
+
+Apabila ID hewan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data hewan tidak ditemukan sehingga proses pembaruan tidak dapat dilakukan.
+
+<img width="282" height="90" alt="image" src="https://github.com/user-attachments/assets/6070e02f-4fd7-4682-a3de-1c1ada217fbd" />
+
+selain itu nama hewan yang baru juga tidak boleh kosong. Jika pengguna tidak memasukkan nama hewan, sistem akan menampilkan pesan kesalahan dan data tidak akan diperbarui.
+
+<img width="307" height="95" alt="image" src="https://github.com/user-attachments/assets/60700009-6e2a-42e4-9419-5b902b18da93" />
+
+<img width="235" height="112" alt="image" src="https://github.com/user-attachments/assets/e17d0629-4835-4f77-97b1-7ab43e1a5cf0" />
+
+dapat dilihat pada gambar diatas proses mengupdate data hewan telah berhasil dilakukan.
+
+Menu ini digunakan ketika terdapat informasi hewan yang perlu diperbarui, seperti kesalahan atau perubahan nama hewan.
 ### 2.2.4 Hapus Data Hewan
+
+<img width="225" height="72" alt="image" src="https://github.com/user-attachments/assets/3c8bdf66-376f-4ea6-9f75-2a4e8bd2f791" />
+
+Gambar di atas menampilkan proses penghapusan data hewan yang tersimpan di dalam sistem. Menu ini digunakan ketika data hewan sudah tidak diperlukan atau terdapat data yang ingin dihapus dari sistem. Pada proses ini, pengguna diminta memasukkan ID hewan yang akan dihapus. Jika ID hewan ditemukan, sistem akan menghapus data tersebut dari daftar hewan dan menampilkan pesan bahwa data berhasil dihapus.
+
+<img width="280" height="425" alt="image" src="https://github.com/user-attachments/assets/3dd6890d-3263-4f4b-98b1-4c71ba621cf8" />
+
+dapat dilihat pada gambar diatas bahwa hewan dengan id 2 sudah tidak terdapat di dalam sistem
+
+<img width="232" height="70" alt="image" src="https://github.com/user-attachments/assets/bd6c4b25-3140-49b9-aa26-bddfba4728dd" />
+
+Apabila ID hewan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data hewan tidak ditemukan sehingga proses penghapusan tidak dapat dilakukan.
 
 ### 2.2.5 Cari Data Hewan
 
