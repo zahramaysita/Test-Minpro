@@ -140,5 +140,60 @@ Apabila ID hewan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan 
 
 ### 2.2.5 Cari Data Hewan
 
+<img width="290" height="152" alt="image" src="https://github.com/user-attachments/assets/0387b6d8-1e87-4ba3-9794-0b7e09706515" />
+
+Gambar di atas menampilkan proses pencarian data hewan yang tersimpan di dalam sistem. Menu ini digunakan untuk memudahkan pengguna dalam menemukan data hewan tertentu tanpa harus melihat seluruh data yang tersedia. Pada proses ini, pengguna diminta memasukkan ID hewan yang ingin dicari. Jika ID hewan ditemukan, sistem akan menampilkan informasi hewan yang sesuai dengan data yang tersimpan.
+
+<img width="320" height="71" alt="image" src="https://github.com/user-attachments/assets/caec3666-d62b-4713-be60-a2cb5770f667" />
+
+Apabila ID hewan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data hewan tidak ditemukan.
+
+<img width="322" height="75" alt="image" src="https://github.com/user-attachments/assets/a495f284-729b-42c4-bd53-9fa42c3570b8" />
+Program juga menerapkan validasi input sehingga ID hewan harus berupa angka. Jika pengguna memasukkan huruf atau karakter selain angka, sistem akan menampilkan pesan kesalahan dan proses pencarian tidak dapat dilakukan.
+
 ## 2.3 Kelola Data Penitipan
+
+### 2.3.1 Tambah Data Penitipan
+
+<img width="357" height="131" alt="image" src="https://github.com/user-attachments/assets/51b1f0f4-cb23-4d09-9b25-978f39d5d2a6" />
+
+Gambar di atas menampilkan proses penambahan data penitipan ke dalam sistem. Pada menu ini, pengguna diminta memasukkan ID penitipan, ID hewan, tanggal masuk, dan lama penitipan. Setelah seluruh data dimasukkan dengan benar, sistem akan menyimpan data penitipan dan menampilkan pesan bahwa data berhasil ditambahkan.
+
+<img width="292" height="97" alt="image" src="https://github.com/user-attachments/assets/1b0c8fa6-7505-4bea-970d-cb0f2f8bc11e" />
+
+<img width="282" height="86" alt="image" src="https://github.com/user-attachments/assets/f75fd30b-6097-44ab-9e15-7e74e4579408" />
+
+<img width="331" height="72" alt="image" src="https://github.com/user-attachments/assets/6e73574d-4f1a-416b-acb8-da7abb544b81" />
+
+<img width="232" height="95" alt="image" src="https://github.com/user-attachments/assets/9a8c6189-276d-40ea-8ede-6fc200824676" />
+
+<img width="320" height="110" alt="image" src="https://github.com/user-attachments/assets/fc22bfda-e6a6-49ce-83d8-16123d4aa80f" />
+
+<img width="332" height="130" alt="image" src="https://github.com/user-attachments/assets/25da5f36-8ae6-431a-b6ab-8252ddca3b94" />
+
+Program juga menerapkan validasi input pada proses penambahan data penitipan. ID penitipan, ID hewan, dan lama penitipan harus berupa angka serta tidak boleh bernilai nol atau negatif. Selain itu, tanggal masuk tidak boleh kosong. Apabila pengguna memasukkan data yang tidak sesuai, seperti huruf pada kolom angka atau nilai yang tidak valid, sistem akan menampilkan pesan kesalahan dan data tidak akan disimpan.
+
+### 2.3.2 Tampilkan Data Penitipan
+
+<img width="392" height="337" alt="image" src="https://github.com/user-attachments/assets/18fc98cf-e989-4d7a-8ad5-c3926082a8ed" />
+
+Gambar di atas menampilkan data penitipan yang tersimpan di dalam sistem. Informasi yang ditampilkan meliputi ID penitipan, ID hewan, tanggal masuk, dan lama penitipan. Menu ini digunakan untuk melihat seluruh data penitipan yang tersedia sehingga pengguna dapat mengetahui informasi penitipan yang telah tersimpan.
+
+### 2.3.3 Update Data Penitipan 
+
+<img width="402" height="555" alt="image" src="https://github.com/user-attachments/assets/b93d1459-d5ae-4795-aff2-36aa6495ef42" />
+
+Gambar di atas menampilkan proses pembaruan data penitipan yang tersimpan di dalam sistem. Menu ini digunakan ketika terdapat informasi penitipan yang perlu diperbarui, seperti perubahan tanggal masuk atau lama penitipan. Pada proses ini, pengguna diminta memasukkan ID penitipan yang ingin diubah. Jika ID penitipan ditemukan, pengguna dapat memasukkan tanggal masuk dan lama penitipan yang baru. Setelah proses berhasil dilakukan, sistem akan memperbarui data dan menampilkan pesan bahwa data penitipan berhasil diperbarui.
+
+<img width="291" height="75" alt="image" src="https://github.com/user-attachments/assets/635b2cf3-641d-463a-b7c3-96543242eb96" />
+
+Apabila ID penitipan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data penitipan tidak ditemukan sehingga proses pembaruan tidak dapat dilakukan.
+
+
+
+
+Program juga menerapkan validasi input pada proses pembaruan data penitipan. Tanggal masuk tidak boleh kosong dan lama penitipan harus berupa angka serta bernilai lebih dari nol. Jika pengguna memasukkan data yang tidak sesuai, sistem akan menampilkan pesan kesalahan dan data tidak akan diperbarui.
+
+### 2.3.4 Hapus Data Penitipan
+
 
