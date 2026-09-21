@@ -14,7 +14,7 @@ Kelas : A'2025
 # PENDAHULUAN
 ## 1.1 Deskripsi Program
 
-Sistem Penitipan Hewan Peliharaan merupakan program berbasis Java yang dibuat untuk membantu mengelola data hewan dan data penitipan hewan. Program ini memiliki beberapa fitur seperti menambah, menampilkan, mengubah, menghapus, dan mencari data hewan, serta mengelola data penitipan hewan yang tersimpan dalam sistem.
+Sistem Penitipan Hewan merupakan program berbasis Java yang dibuat untuk membantu mengelola data hewan dan data penitipan hewan. Program ini memiliki beberapa fitur seperti menambah, menampilkan, mengubah, menghapus, dan mencari data hewan, serta mengelola data penitipan hewan yang tersimpan dalam sistem.
 
 Program ini dibuat dengan menerapkan konsep Object Oriented Programming (OOP), yaitu dengan membagi program ke dalam beberapa class sesuai dengan fungsinya. Class Hewan digunakan sebagai superclass untuk menyimpan data hewan, sedangkan class Kucing, Anjing, Kelinci, dan Hamster digunakan sebagai subclass yang mewarisi atribut dan method dari class Hewan. Selain itu, class Penitipan digunakan untuk menyimpan data penitipan, sedangkan class Service digunakan untuk mengatur proses pengolahan data. Program juga menggunakan object, constructor, ArrayList, percabangan, dan perulangan dalam proses pengelolaan data.
 
@@ -22,7 +22,7 @@ Program ini menerapkan validasi input untuk memastikan data yang dimasukkan sesu
 
 ## 1.2 Tujuan Program
 
-Tujuan dari pembuatan program Sistem Penitipan Hewan Peliharaan yaitu:
+Tujuan dari pembuatan program Sistem Penitipan Hewan yaitu:
 
 1. Membantu pengelola penitipan hewan dalam mencatat dan mengelola data hewan yang dititipkan.
 2. Memudahkan pengelola dalam menyimpan dan melihat informasi mengenai hewan dan data penitipannya.
@@ -41,7 +41,7 @@ Program akan terus berjalan sampai pengguna memilih menu Keluar. Setelah menu te
 # BAB II 
 # IMPLEMENTASI PROGRAM
 
-Pada bab ini akan dijelaskan implementasi program Sistem Penitipan Hewan Peliharaan. Pembahasan meliputi menu-menu yang tersedia pada program, seperti pengelolaan data hewan, pengelolaan data penitipan, pencarian data, serta proses validasi input yang diterapkan dalam sistem. Penjelasan disertai dengan tampilan program untuk menunjukkan cara kerja setiap fitur yang tersedia.
+Pada bab ini akan dijelaskan implementasi program Sistem Penitipan Hewan. Pembahasan meliputi menu-menu yang tersedia pada program, seperti pengelolaan data hewan, pengelolaan data penitipan, pencarian data, serta proses validasi input yang diterapkan dalam sistem. Penjelasan disertai dengan tampilan program untuk menunjukkan cara kerja setiap fitur yang tersedia.
 
 ## 2.1 Menu Utama
 
@@ -189,11 +189,30 @@ Gambar di atas menampilkan proses pembaruan data penitipan yang tersimpan di dal
 
 Apabila ID penitipan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data penitipan tidak ditemukan sehingga proses pembaruan tidak dapat dilakukan.
 
-
-
-
-Program juga menerapkan validasi input pada proses pembaruan data penitipan. Tanggal masuk tidak boleh kosong dan lama penitipan harus berupa angka serta bernilai lebih dari nol. Jika pengguna memasukkan data yang tidak sesuai, sistem akan menampilkan pesan kesalahan dan data tidak akan diperbarui.
-
 ### 2.3.4 Hapus Data Penitipan
 
+<img width="461" height="522" alt="image" src="https://github.com/user-attachments/assets/1433deaa-419c-4337-92b0-b3208065f2ee" />
 
+Gambar di atas menampilkan proses penghapusan data penitipan yang tersimpan di dalam sistem. Menu ini digunakan ketika data penitipan sudah tidak diperlukan atau terdapat data yang ingin dihapus dari sistem. Pada proses ini, pengguna diminta memasukkan ID penitipan yang akan dihapus. Jika ID penitipan ditemukan, sistem akan menghapus data tersebut dan menampilkan pesan bahwa data berhasil dihapus.
+
+
+<img width="292" height="70" alt="image" src="https://github.com/user-attachments/assets/d7d2eb3b-d878-4488-8436-a46de0a313dd" />
+
+Apabila ID penitipan yang dimasukkan tidak ditemukan, sistem akan menampilkan pesan bahwa data penitipan tidak ditemukan sehingga proses penghapusan tidak dapat dilakukan.
+
+<img width="311" height="67" alt="image" src="https://github.com/user-attachments/assets/c07aef22-3e8c-44d4-b2e4-bdab7ee06c1b" />
+
+Program juga menerapkan validasi input pada proses penghapusan data penitipan. ID penitipan harus berupa angka. Jika pengguna memasukkan huruf atau karakter selain angka, sistem akan menampilkan pesan kesalahan dan proses penghapusan tidak dapat dilakukan.
+
+## 2.3 Menu Keluar
+
+<img width="597" height="231" alt="image" src="https://github.com/user-attachments/assets/a34cbe2a-429f-4d25-81fe-44a6d0a99bd9" />
+
+Gambar di atas menampilkan menu keluar dari program. Pada menu ini, pengguna dapat memilih pilihan Keluar untuk mengakhiri program. Setelah pilihan tersebut dipilih, sistem akan menampilkan pesan terima kasih dan program akan berhenti dijalankan.
+
+# BAB III
+# PENERAPAN KONSEP OOP
+Pada bab ini akan dijelaskan penerapan konsep Object Oriented Programming (OOP) yang digunakan dalam program Sistem Penitipan Hewan. Konsep yang diterapkan meliputi encapsulation, inheritance, dan polymorphism sebagai nilai tambah dalam pengembangan program.
+
+
+## 3.1 Encapsulation 
