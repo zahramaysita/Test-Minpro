@@ -214,5 +214,30 @@ Gambar di atas menampilkan menu keluar dari program. Pada menu ini, pengguna dap
 # PENERAPAN KONSEP OOP
 Pada bab ini akan dijelaskan penerapan konsep Object Oriented Programming (OOP) yang digunakan dalam program Sistem Penitipan Hewan. Konsep yang diterapkan meliputi encapsulation, inheritance, dan polymorphism sebagai nilai tambah dalam pengembangan program.
 
-
 ## 3.1 Encapsulation 
+
+Encapsulation atau enkapsulasi merupakan konsep OOP yang digunakan untuk membungkus dan melindungi data agar tidak dapat diakses atau diubah secara langsung dari luar class. Tujuan utama dari encapsulation adalah mencegah data diubah sembarangan sehingga nilai yang tersimpan tetap valid dan lebih terkontrol. pada program Sistem Penitipan Hewan, encapsulation diterapkan dengan menggunakan access modifier private pada atribut class serta method getter dan setter untuk mengakses maupun mengubah data. Dengan cara ini, data tidak dapat diakses secara langsung dari luar class, melainkan harus melalui method yang telah disediakan.
+
+<img width="531" height="482" alt="image" src="https://github.com/user-attachments/assets/d2a47634-0e90-43b6-bd4c-3347a08fb789" />
+
+Gambar di atas menunjukkan penerapan encapsulation pada class Hewan. Penerapan ini dapat dilihat dari penggunaan access modifier private pada atribut idHewan dan namaHewan. Dengan menggunakan private, atribut tersebut tidak dapat diakses secara langsung dari luar class. Untuk mengambil dan mengubah nilai atribut, digunakan method getter dan setter yang telah disediakan. Penerapan encapsulation ini bertujuan untuk melindungi data agar tidak diakses atau diubah secara sembarangan dari luar class.
+
+## 3.2 Inheritance 
+
+Inheritance atau pewarisan merupakan konsep OOP yang memungkinkan suatu class mewarisi atribut dan method dari class lain. Dengan adanya inheritance, kode dapat digunakan kembali sehingga program menjadi lebih terstruktur dan mengurangi penulisan kode yang berulang.
+
+Pada program Sistem Penitipan Hewan, inheritance diterapkan pada class Kucing, Anjing, Kelinci, dan Hamster yang mewarisi class Hewan sebagai superclass. Dengan pewarisan tersebut, setiap subclass dapat menggunakan atribut dan method yang sudah dimiliki oleh class Hewan tanpa perlu menuliskannya kembali.
+
+<img width="405" height="52" alt="image" src="https://github.com/user-attachments/assets/9b07b5fd-d703-46e8-a32c-aab63643caee" />
+
+<img width="382" height="45" alt="image" src="https://github.com/user-attachments/assets/e64ce2a0-a131-4e9e-839a-5844498067a3" />
+
+<img width="376" height="37" alt="image" src="https://github.com/user-attachments/assets/14540c4f-2450-43e5-a6f7-4b691a157b5a" />
+
+<img width="371" height="47" alt="image" src="https://github.com/user-attachments/assets/44704e5a-e404-45a5-8df3-fe9e57514c4f" />
+
+## 3.3 Polymorphism (Method Overriding) Nilai Tambah
+
+
+
+
