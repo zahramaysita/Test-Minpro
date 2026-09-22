@@ -238,6 +238,13 @@ Pada program Sistem Penitipan Hewan, inheritance diterapkan pada class Kucing, A
 
 ## 3.3 Polymorphism (Method Overriding) Nilai Tambah
 
+Polymorphism merupakan konsep OOP yang memungkinkan method dengan nama yang sama memiliki perilaku yang berbeda pada class yang berbeda. Pada program ini, polymorphism diterapkan menggunakan method overriding, yaitu subclass membuat kembali method yang sudah ada pada superclass sesuai dengan kebutuhannya.
+
+Pada program Sistem Penitipan Hewan Peliharaan, method overriding diterapkan pada method getInfo(). Method tersebut awalnya terdapat pada class Hewan, kemudian di-override pada class Kucing, Anjing, Kelinci, dan Hamster sehingga setiap jenis hewan dapat menampilkan informasi yang berbeda.
 
 
+<img width="505" height="145" alt="image" src="https://github.com/user-attachments/assets/2ffad36e-4752-4864-8893-84db2eb8d898" />
 
+Pada gambar di atas, method getInfo() pada class kucing kita dibuat kembali menggunakan annotation @Override. Meskipun nama method sama dengan yang terdapat pada class Hewan, hasil yang ditampilkan berbeda karena disesuaikan dengan jenis hewan. Dengan cara ini, setiap subclass dapat memiliki implementasi method yang berbeda sesuai kebutuhannya.
+
+Saya menerapkan polymorphism menggunakan method overriding pada method getInfo(). Method tersebut ada di class Hewan lalu di-override pada class Kucing, Anjing, Kelinci, dan Hamster sehingga setiap subclass dapat menampilkan informasi yang berbeda
